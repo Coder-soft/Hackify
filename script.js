@@ -1,8 +1,8 @@
 document.addEventListener("DOMContentLoaded", () => {
     // Typewriter effect for CLI commands
     const text = [
-        "$ hackify download <playlist_url>",
-        "Fetching playlist... Done",
+        "$ python Spotify.py",
+        "Enter Spotify playlist URL (or 'exit' to quit): {playlist_url}",
         "Downloading tracks... [██████████] 100%",
     ];
     let line = 0;

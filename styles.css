@@ -1,0 +1,97 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Code Pro', monospace;
+}
+
+body {
+    background-color: #0d1a0f;
+    color: #a8f582;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Header */
+.header {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.header h1 {
+    font-size: 3em;
+    color: #60c96b;
+}
+
+.header p {
+    font-size: 1.2em;
+    color: #9be09b;
+}
+
+.install-btn {
+    background-color: #0b3912;
+    color: #a8f582;
+    padding: 10px 20px;
+    border: 2px solid #4caf50;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.install-btn:hover {
+    background-color: #1e5b2a;
+}
+
+/* Sections */
+.instructions, .download, .download-options, .faq {
+    width: 80%;
+    margin-top: 20px;
+}
+
+.instructions h2, .download h2, .download-options h2, .faq h2 {
+    color: #4caf50;
+    margin-bottom: 10px;
+}
+
+.cli-example {
+    background-color: #0b3912;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.cli-example pre {
+    color: #9be09b;
+}
+
+/* Download Button Group */
+.button-group {
+    display: flex;
+    gap: 20px;
+    margin-top: 10px;
+}
+
+.download-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0b3912;
+    color: #a8f582;
+    border: 2px solid #4caf50;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background 0.3s, color 0.3s;
+}
+
+.download-btn:hover {
+    background-color: #1e5b2a;
+    color: #cfffcf;
+}
+
+/* Footer */
+.footer {
+    margin-top: 20px;
+    text-align: center;
+    color: #4caf50;
+}
